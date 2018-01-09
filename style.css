@@ -1,0 +1,92 @@
+body {
+		padding: 3%;
+	}
+
+p {
+	padding: 2%;
+}
+
+span {
+	font-weight: bold;
+}
+figcaption {
+	padding: 1%;
+	font-size: 0.75em;
+}
+.title {
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 3em;
+}
+.sub-title {
+	font-style: italic;
+	font-size: 2.25em;
+}
+
+.main-div {
+	background-color: #e3e9f2;
+	border-radius: 10px;
+	padding: 2%;
+	}
+
+.main-img {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.refs {
+	font-style: italic;
+	font-weight: normal;
+}
+.intro {
+	font-weight: bold;
+}
+.col-title {
+	font-style: italic;
+	font-weight: bold;
+	font-family: monospace;
+	margin-bottom: 0px;
+	font-size: 1.5em;
+}
+.desc {
+	text-indent: 2em;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+.graph {
+	border: solid grey 3px;
+	border-radius: 5px;
+	width: 76%;
+	margin: 10%;
+	margin-left: 15%;
+}
+.portrait {
+	width: 76%;
+	margin: 10%;
+}
+.reading {
+	margin-left: -10px;
+}
+.credit {
+	padding: 0px;
+	font-size: 0.75em;
+	font-style: italic;
+}
+@media screen and (max-width: 1000px) {
+	p {
+		font-size: 300%
+	}
+	.col-title {
+		font-size: 350%;
+	}
+	li {
+		font-size: 300%
+	}
+	.credit {
+		font-size: 200%;
+	}
+	figcaption {
+		font-size: 200%;
+	}
+		
+}
